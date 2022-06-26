@@ -1,4 +1,4 @@
-public class LambdaExpression {
+public class LambdaExpressionTest {
     public static void main(String[] args) {
         System.out.printf(showHello());
         System.out.printf(showResultAddNumber());

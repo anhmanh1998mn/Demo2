@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class StreamFilter {
+public class StreamFilterAndForEachTest {
     static class Student {
         String studentName;
 
@@ -20,6 +20,11 @@ public class StreamFilter {
             System.out.printf(student.studentName +"\n");
         }
 
+        //ForEach
+        listStudent.forEach(student -> {
+            if (student.studentName.toLowerCase().contains("nguyen van a")) {
+            System.out.printf(student.studentName);
+        }});
     }
 
     public static ArrayList<Student> processListStudent() {

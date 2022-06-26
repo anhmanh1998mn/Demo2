@@ -1,4 +1,4 @@
-public class FunctionInterface {
+public class FunctionInterfaceTest {
     public static void main(String[] args) {
         Hello hello = new Hello();
         hello.sayHello();

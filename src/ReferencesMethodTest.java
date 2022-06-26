@@ -1,4 +1,4 @@
-public class ReferencesMethod {
+public class ReferencesMethodTest {
     public static void main(String[] args) {
         ISayHelloInterface hello = Hello::showHello;
         hello.sayHello();
